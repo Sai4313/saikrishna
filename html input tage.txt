@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<h1>SOFTPATH TECHNOLOGIES </h1>
+<div>SAI KRISHNA</div>
+<h3><U>INPUT TYPES :</U> </h3>
+<label>TEXT : </label><br>
+<input type="text"/><br>
+<label>PASSWORD :<br>
+<input type="password"/></BR>
+<label>NUMBERS :</LABEL><br>
+<INPUT TYPE:"NUMBERS"></BR>
+<LABEL> COLOR : </LABEL></BR>
+<INPUT TYPE="COLOR"/></BR>
+<LABEL>DATE :</BR>
+<INPUT TYPE="DATE"></BR>
+    <LABEL>TIME :</BR>
+<INPUT TYPE="TIME"></BR>
+    <LABEL>SEARCH :</BR>
+<INPUT TYPE="SEARCH"></BR>
+<LABEL>FILE:</BR>
+<INPUT TYPE="FILE"></BR>
+    <LABEL>RANGE :</LABEL></BR>
+<INPUT TYPE="RANGE"/></BR>
+ <LABEL>WEEK:</LABEL></BR>
+<INPUT TYPE="WEEK"/>
+ <h2><U>FORMATTING ELEMENTS : </U> </H2>
+ <B>SAI KRISHNA</B></BR>
+ <STRONG>SAI KRISHNA</STRONG></BR>
+ <I>SAI KRISHNA</I></BR>
+ <EM>SAI KRISHNA</EM></BR>
+ <MARK>SAI KRISHNA</MARK></BR>
+ <DEL>SAI KRISHNA</DEL></BR>
+ <INS>SAI KRISHNA</INS>
+
+</body>
+</html>
+
+
+<html>: Defines the root element of an HTML page.
+<head>: Contains meta-information about the HTML document.
+<title>: Specifies the title of the HTML document, displayed in the browser's title bar or tab.
+<body>: Represents the content of an HTML document.
+<h1> to <h6>: Defines heading elements, where <h1> is the highest (most important) level and <h6> is the lowest.
+<p>: Defines a paragraph.
+<a>: Creates a hyperlink to another web page, file, or location on the same page.
+<img>: Inserts an image into the document.
+<ul>: Represents an unordered (bulleted) list.
+<ol>: Represents an ordered (numbered) list.
+<li>: Defines a list item within an <ul> or <ol> list.
+<div>: Defines a division or a section in an HTML document.
+<span>: Defines a section of text within a document.
+<table>: Defines a table.
+<tr>: Defines a table row.
+<td>: Defines a table cell.
+<th>: Defines a table header cell.
+<form>: Creates an HTML form for user input.
+<input>: Defines an input control within a form.
+<button>: Creates a clickable button.
+<textarea>: Defines a multiline text input control.
+<select>: Creates a dropdown list.
+<option>: Defines an option within a <select> or <datalist> element.
+<label>: Defines a label for an <input> element.
+<header>: Represents a container for introductory content or a set of navigational links.
+<nav>: Defines a section of navigation links.
+<footer>: Represents a footer for a document or a section.
+<section>: Defines a section in a document.
+<article>: Represents an independent, self-contained content.
+<aside>: Defines content aside from the main content.
+<style>: Defines style information for a document.
+<script>: Embeds or references an external script file or contains JavaScript code.
+<iframe>: Embeds another HTML page within the current page.
+<audio>: Embeds sound content in the document.
+<video>: Embeds video content in the document.
+<canvas>: Defines an area for graphics.
+<svg>: Defines an SVG (Scalable Vector Graphics) image.
+<b>: Displays text in bold.
+<i>: Displays text in italics.
+<strong>: Indicates strong emphasis on text.
+<em>: Emphasizes text.
+<br>: Inserts a single line break.
+<hr>: Inserts a thematic horizontal line.
+
+
+
+
+
+
+
+
+Attribute	Description
+checked	        Specifies that an input field should be pre-selected when the page loads 
+		(for type="checkbox" or type="radio")
+disabled	Specifies that an input field should be disabled
+max		Specifies the maximum value for an input field
+maxlength	Specifies the maximum number of character for an input field
+min		Specifies the minimum value for an input field
+pattern		Specifies a regular expression to check the input value against
+readonly	Specifies that an input field is read only (cannot be changed)
+required	Specifies that an input field is required (must be filled out)
+size		Specifies the width (in characters) of an input field
+step		Specifies the legal number intervals for an input field
+value		Specifies the default value for an input field
+
+
+
+SYMBOLS:
+<p>Move your mouse over the below words for the cursor change.</p>
+      <div style = "cursor:alias">alias Value</div>      
+      <div style = "cursor:auto">auto Value</div>
+      <div style = "cursor:all-scroll">all-scroll value</div>
+      <div style = "cursor:col-resize">col-resize value</div>
+      <div style = "cursor:crosshair">Crosshair</div>
+      <div style = "cursor:default">Default value</div>
+      <div style = "cursor:copy">copy value</div>
+      <div style = "cursor:pointer">Pointer</div>
+      <div style = "cursor:move">Move</div>
+      <div style = "cursor:e-resize">e-resize</div>
+      <div style = "cursor:ew-resize">ew-resize</div>
+      <div style = "cursor:ne-resize">ne-resize</div>
+      <div style = "cursor:nw-resize">nw-resize</div>
+      <div style = "cursor:n-resize">n-resize</div>
+      <div style = "cursor:se-resize">se-resize</div>
+      <div style = "cursor:sw-resize">sw-resize</div>
+      <div style = "cursor:s-resize">s-resize</div>
+      <div style = "cursor:w-resize">w-resize</div>
+      <div style = "cursor:text">text</div>
+      <div style = "cursor:wait">wait</div>
+      <div style = "cursor:help">help</div>
+      <div style = "cursor:progress">Progress</div>
+      <div style = "cursor:no-drop">no-drop</div>
+      <div style = "cursor:not-allowed">not-allowed</div>
+      <div style = "cursor:vertical-text">vertical-text</div>
+      <div style = "cursor:zoom-in">Zoom-in</div>
+      <div style = "cursor:zoom-out">Zoom-out</div>
+ 
+       <input type="numbers" style="cursor:Progress">
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+The REST application follows the REST architectural approach. 
+We use the REST application for developing and designing networked applications.
+ It generates the HTTP request that performs CRUD operations on the data.
+ 
+
+Usually, it returns data in JSON or XML format.
+ It returns the data in JSON format.
+
+REST API is a specific type of API that follows the principles of REST (Representational State Transfer), 
+which is an architectural style for designing networked applications. 
+RESTful APIs use standard HTTP methods (such as GET, POST, PUT, DELETE) to perform CRUD (Create, Read, Update, Delete) operations on resources. 
+These resources are typically represented as URLs (Uniform Resource Locators) or endpoints. 
+The REST architecture emphasizes a stateless communication model, meaning that each request from a client to the server must contain 
+all the necessary information needed to understand and process the request. 
+The server responds with the requested data, typically in a structured format like JSON or XML.
+
+In summary, all REST APIs are APIs, but not all APIs are necessarily REST APIs.
+ APIs can use various communication protocols and design patterns, while REST APIs follow a specific set of guidelines and principles based on the REST architecture. 
+RESTful APIs have gained popularity due to their simplicity, scalability, 
+and ease of use in web services and distributed systems.
+
+RESTful API (Representational State Transfer) is an architectural style for building APIs. 
+It has client-server separation, uses HTTP as its interface, and is stateless.
+ It provides a flexible and scalable approach to API design.
+
+
+
+ REST suggests to create an object of the data requested by the 
+client and send the values of the object in response to the user.
+ For example, if the user is requesting for a movie in Bangalore at a certain place and time,
+ then you can create an object on the server-side.

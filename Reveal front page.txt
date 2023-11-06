@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, white 0%, white 50%, lightgray 70%, lightgray 100%);
+        }
+
+        header {
+            background-color: 	#C8C8C8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .login-container {
+            max-width: 60%;
+            margin: 0 auto;
+            padding: 80px;
+        }
+
+        .login-form {
+            background-color: lightgray;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: darkgray;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 8px 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: lightgray;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 6px;
+            width:250px;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <!-- Header content goes here -->
+</header>
+
+<div class="login-container">
+    <div class="login-form">
+        <img src="https://i.ytimg.com/vi/P-FcnHFwHI8/maxresdefault.jpg" width="120" height="70">
+        <h2 style="color: darkbrown">LOGIN</h2>
+        <img src="https://www.freeiconspng.com/thumbs/lock-icon/gold-lock-icon-0.png" width="120" height="100"
+             alt="Lock Icon" align="right" style="padding-right:100px;margin-top: -14px;">
+        <form action="" method="POST">
+            <div class="form-group" style="margin-left:100px">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group" style="margin-left:100px">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button class="button" type="submit">LOGIN</button>
+            </div>
+        </form>
+        <br>
+        <label>
+            <a href="" style="margin-right: 50px"><b>ENGLISH</b></a>
+            <a href="" style="margin-right: 50px"><b>SPANISH</b></a>
+            <a href="" style="margin-right: 50px"><b>ITALIAN</b></a>
+        </label>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; Softpath Tech Limited</p>
+</footer>
+</body>
+</html>
