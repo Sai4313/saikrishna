@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<body style="background-image: url('https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg'); background-size: cover; background-position: center; font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="text-align: right; background-color: rgba(255, 255, 255, 0.8); padding: 30px; border-radius: 9px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-width: 300px; width: 70%;position: absolute; right: 190px; top: 160px;">
+    <h1 style="text-align: center;color:darkgreen">Login Page</h1>
+    <form action="/login" method="post">
+        <label for="username"  style="color: #808000;">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter the Username" required><br><br>
+        <label for="password"  style="color: #808000;">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter the Password" required><br><br>
+        <a href="nextpage.html" style="background-color: #007bff; color: #fff; padding: 10px 20px; border-radius: 3px; text-decoration: none; display: inline-block;">Login</a>
+    </form></br>
+    New Registration? <a href="Signup.html">Signup</a>
+</div>
+</body>
+</html>
